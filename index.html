@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!--
+
+
+Form Joining Format:--join~levelno~teamName
+
+
+
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Competition Template Thingy.... Just to create a system of joining. Most probably this wont happen :(</title>
+        <!--Material-Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        
+        
+        <!--Montserrat Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+        <!--Source Sans Pro-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin:0px; 
+                overflow-x:hidden;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .jump-up{
+                
+            }
+            .jump-up:hover{
+                transform:translate(0,-5px);
+                transition-duration:0.4s;
+            }
+            nav{
+                margin:0px;
+                width:100%;
+                border:0px black solid;
+                background-color:rgb(0, 255, 170);
+                height:50px;
+                color:white;
+                font-weight:bold;
+                padding:5px;
+            }
+            #logo{
+                position:relative;
+                top:-51px;
+                padding-left:4vw;
+                cursor:pointer;
+            }
+            .nav-obj{
+                position:relative;
+                top:-5px;
+                padding-right:6vw;
+                cursor:pointer;
+            }
+            .nav-obj:hover{
+                
+                color:rgb(255, 81, 0);
+                
+                transition-duration:0.5s;
+            }
+            .center{
+                text-align:center;
+            }
+            .text{
+                padding:10px;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            .title{
+                color:black;
+            }
+            .title img{
+                vertical-align:sub;
+                padding:5px;
+                position:relative;
+                top:8px;
+            }
+            .nav-right{
+                display:block;
+                padding:21px;
+                text-align:right;
+            }
+            .pane-long{
+                width:90%;
+                padding:20px;
+                border:1px grey solid;
+                border-radius:10px;
+                text-align:center;
+                cursor:pointer;
+            }
+            .pane-long:hover{
+                box-shadow:0px 0px 11px 0px grey;
+            }
+            footer{
+                padding:20px;
+                border:1px black solid;
+                text-align:center;
+                color:white;
+                background-color:rgb(255, 0, 77);
+            }
+            table{
+                border:1px black solid;
+                width:100%;
+            }
+            th{
+                border:1px black solid;
+            }
+        </style>
+    </head>
+    <body>
+    <nav>
+        
+        <span class="nav-right">
+        <span class="nav-obj" onclick="changePage(0)">Home</span>
+        <span class="nav-obj" onclick="changePage(1)">About</span>
+        <span class="nav-obj" onclick="changePage(2)">Teams</span>
+        <span class="nav-obj" onclick="changePage(3)">Join</span>
+        <span class="nav-obj" onclick="changePage(4)">Judging</span>
+        </span>
+        <span class="nav-obj">
+        <img class="jump-up" id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/195px-HTML5_logo_and_wordmark.svg.png" width="40px">
+        </span>
+    </nav>
+    <div class="scene">
+    <h1 class="center title"><span><br><br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Circle-icons-trophy.svg/768px-Circle-icons-trophy.svg.png" width="50px">&nbsp;HTML Competition</span></h1>
+    
+    
+    <div class="text">
+    <br><br><br>
+    <p>Welcome to a unique competition hosted by <a href="https://www.khanacademy.org/profile/abhijitbiswas07">@Liftoff</a>. In this competition only HTML entries are allowed. The competition will try to use API's to create a very automated experience.</p>
+    <p>Only people joining before DD.MM.YYYY will be accepted by the API and you will be automatically sorted into a team based on the availability of seats.</p>
+    <br>
+    <div class="pane-long jump-up"><h3>Teams <span class="material-icons" style="position:relative;top:5px;">arrow_forward</span></h3></div><br>
+    <div class="pane-long jump-up" style="width:50%;"><h3>Judges <span class="material-icons" style="position:relative;top:5px;">arrow_forward</span></h3></div><br>
+    <br>
+    <details>
+    <summary>What is the difference with other competitions ?</summary><br>
+    In this competition there will initially be no teams.....<br>
+    I will choose some capable captains. <br>
+    Then you can join any captain's team if a slot is available<br>
+    There is also automatic verification based on date. Basically if you join after the last date, your joining won't count.
+    <p>
+        
+    </p>
+    </details>
+    </div>
+    </div><!--Home-->
+    <div class="scene">
+        <h2 class="center title"><span><br><br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Icons8_flat_sms.svg/640px-Icons8_flat_sms.svg.png" width="50px" style="position:relative;top:8px;">&nbsp;About</span></h2>
+        <div class="text">
+            This is a competition is hosted by @Liftoff<br>
+            <br>There are a few rules one must follow:- 
+            <ol>
+                <li>No Plagiarism allowed
+                <li>No usage of custom libraries made by the participant before the competition
+                <li>Respect your teammate's opinions
+                <li>No usage of curse words in your team's chat-thread'
+                <li>Have Fun !!
+            </ol>
+         <br>
+         <h2 class="center"><u>Challenges</u></h2>
+         <ol>
+            <li><h4>Create your team homepage</h4></li>
+            <li><h4>Create a Tours Webpage</h4></li>
+            <li><h4>Create a useful application- This could be any type of html application . eg. Calculator etc</h4></li>
+            <li><h4>Create an individual portfolio</h4></li>
+            <li><h4>Grand-Finale --- Work on any thing in a webpage, no games allowed, 5 person collabs</h4></li>
+         </ol>
+            
+        If your Webpage incorporates a game, it will be automatically disqualified.
+        </div><br><br><br><br><br>
+    </div><!--About-->
+    <div class="scene">
+        <h2 class="center title"><span><br><br>Teams</span></h2>
+        <div class="text">
+           <table>
+               <tr>
+                   <th>Teams</th>
+                   <th>Points</th>
+               </tr>
+               <tr>
+                   <th>If-Else-Warriors</th>
+                   <th>00</th>
+               </tr>
+               <tr>
+                   <th>Tag-Masters</th>
+                   <th>00</th>
+               </tr>
+               <tr>
+                   <th>Function-Maniacs</th>
+                   <th>00</th>
+               </tr>
+               <tr>
+                   <th>ECMA-Ninjas</th>
+                   <th>00</th>
+               </tr>
+               <tr>
+                   <th>CSS-Sailors</th>
+                   <th>00</th>
+               </tr>
+           </table>
+           <br><br>
+           <h2 class="center">Participants <small>(Joining Deadline: 30.6.21)</small></h2>
+           <table id="participantTable">
+               <tr>
+                   <th>Name</th>
+                   <th>Team Name</th>
+                   <th>Level</th>
+               </tr>
+           </table>
+        </div><br><br><br><br>
+    </div><!--Teams-->
+    <div class="scene">
+        <h2 class="center title"><span><br><br>Join <small>(Joining Deadline: 30/6/21)</small></span></h2>
+        <div class="text">
+        <br><br>
+        If you want to join pls fill in the form below:-
+        <br><br>
+        <form id="joinForm">
+            <fieldset id="basic">
+            <legend><h3>Join Form</h3></legend>
+            <label for="agree"><b>Do you agree to not violate any rules (type Y or N): </b><input id="agree" type="text" required></label><br>
+            <label><b>Choose your level number</b> <br>(0-Beginner<br>, 1-More Knowledge,<br> 2-Intermediate,<br> 3-Advanced,<br> 4-Expert):<br><input type="number" min="0" max="4" id="level" required></label>
+            <br><br>
+            <button type="button" style="background-color:transparent;border:1px black solid;padding:10px;padding-right:20px;padding-left:20px;cursor:pointer;" onclick="add()">Next</button>
+            </fieldset>
+        </form>
+        </div><br><br><br><br><br><br><br><br>
+    </div><!--Join-->
+    <div class="scene">
+        <h2 class="center title"><span><br><br>Judging</span></h2>
+        <br><br>
+        <div class="text">
+        We need help of some very capable people to judge in this competition. Joining for judges will be open only if the participant count is more than 20. <br><br>
+        If you want to join go as a judge <a href="https://www.khanacademy.org/computer-programming/judging-hall/6206477645594624">here.</a>
+        <br><br>
+        Following are the qualifications for being a judge<br>
+        <ul>
+            <li>You get preference if you have judged in Primavera or COC
+            <li>If you have good html skills
+            <li>You will also be asked to give feedback on a program and will be given a score
+            <li>Judges must have completed 100% of the HTML course or attleast have that much knowledge. Even better is if you have completed the DOM and Jquery course
+        </ul>
+        </div>
+        
+        <br><br><br>
+        <br>
+    </div><!--Judging-->
+    <br>
+    <footer>Copyright @Liftoff</footer>
+     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        var scenes = document.getElementsByClassName('scene');
+        function changePage(index) {
+            ;
+            for (var i = 0; i < scenes.length; i++) {
+                scenes[i].style.display = 'none';
+            }
+            $(scenes[index]).fadeIn(1000);
+            window.scrollTo(0,0)
+        };
+        changePage(0)
+    </script><!--Change Page Script-->
+    <script type="text/ecmascript">
+        /**Variables**/
+        var team1part = {
+            level1:0,
+            level2:0,
+            level3:0,
+            level4:0,
+            level0:0
+        }
+        var team2part = {
+            level1:0,
+            level2:0,
+            level3:0,
+            level4:0,
+            level0:0
+        }
+        var team3part = {
+            level1:0,
+            level2:0,
+            level3:0,
+            level4:0,
+            level0:0
+        }
+        var team4part = {
+            level1:0,
+            level2:0,
+            level3:0,
+            level4:0,
+            level0:0
+        }
+        var team5part = {
+            level1:0,
+            level2:0,
+            level3:0,
+            level4:0,
+            level0:0
+        }
+        
+        
+        var joinThreadKey = "ag5zfmtoYW4tYWNhZGVteXJpCxIIVXNlckRhdGEiRnVzZXJfaWRfa2V5X2h0dHA6Ly9pZC5raGFuYWNhZGVteS5vcmcvODg2MDZiZDRjMDJmNDg1YjkwYzg5NjUyYmVkZTE4MTkMCxIIRmVlZGJhY2sYgID92rufnwgM";
+        var participants = []
+        var levels = [0,1,2,3,4]
+        var teamNames = ["If-Else-Warriors","Tag-Masters","Function-Maniacs", "ECMA-Ninjas","CSS-Sailors"];
+        
+        
+        $.getJSON("https://www.khanacademy.org/api/internal/discussions/"+joinThreadKey+"/replies?format=pretty&callback=?",(data)=>{
+           for(var i = 0;i<data.length;i++){
+               var date = data[i].date
+               date = date.split("-")
+               var modi = date[2].split("")
+               if(parseInt(modi[0])>parseInt("3")&&parseInt(modi[1])>parseInt("0")){
+                   continue;
+               }
+               
+                var split = data[i].content.split("~")
+               console.log(split[1])
+               if(data[i].content.includes("--join")&&!participants.includes(data[i].authorKaid)&&levels.includes(parseInt(split[1]))&&teamNames.includes(split[2])){
+                   var x = `<tr><th><a target='_blank' href=\"https://www.khanacademy.org/profile/${data[i].authorKaid}\">${data[i].authorNickname}</a></th><th>${split[2]}</th><th>${split[1]}</th></tr>`
+                   
+                   participants.push(data[i].authorKaid)
+                   
+                   $("#participantTable").append(x)
+                   if(split[2]=="If-Else-Warriors"){
+                       if(split[1]=="0"){
+                           team1part["level0"] += 1
+                       }else if(split[1]=="1"){
+                           team1part["level1"] += 1
+                       }else if(split[1]=="2"){
+                           team1part["level2"] += 1
+                       }else if(split[1]=="3"){
+                           team1part["level3"] += 1
+                       }else if(split[1]=="4"){
+                           team1part["level4"] += 1
+                       }
+                   }else if(split[2]=="Tag-Masters"){
+                       if(split[1]=="0"){
+                           team2part["level0"] += 1
+                       }else if(split[1]=="1"){
+                           team2part["level1"] += 1
+                       }else if(split[1]=="2"){
+                           team2part["level2"] += 1
+                       }else if(split[1]=="3"){
+                           team2part["level3"] += 1
+                       }else if(split[1]=="4"){
+                           team2part["level4"] += 1
+                       }
+                   }else if(split[2]=="Function-Maniacs"){
+                       if(split[1]=="0"){
+                           team3part["level0"] += 1
+                       }else if(split[1]=="1"){
+                           team3part["level1"] += 1
+                       }else if(split[1]=="2"){
+                           team3part["level2"] += 1
+                       }else if(split[1]=="3"){
+                           team3part["level3"] += 1
+                       }else if(split[1]=="4"){
+                           team3part["level4"] += 1
+                       }
+                   }else if(split[2]=="ECMA-Ninjas"){
+                       if(split[1]=="0"){
+                           team4part["level0"] += 1
+                       }else if(split[1]=="1"){
+                           team4part["level1"] += 1
+                       }else if(split[1]=="2"){
+                           team4part["level2"] += 1
+                       }else if(split[1]=="3"){
+                           team4part["level3"] += 1
+                       }else if(split[1]=="4"){
+                           team4part["level4"] += 1
+                       }
+                   }else if(split[2]=="CSS-Sailors"){
+                       if(split[1]=="0"){
+                           team5part["level0"] += 1
+                       }else if(split[1]=="1"){
+                           team5part["level1"] += 1
+                       }else if(split[1]=="2"){
+                           team5part["level2"] += 1
+                       }else if(split[1]=="3"){
+                           team5part["level3"] += 1
+                       }else if(split[1]=="4"){
+                           team5part["level4"] += 1
+                       }
+                   }
+               }
+           }
+        })
+    
+        var teamaddname = "";
+        var add = ()=>{
+            var teamName = ""
+            
+            var x = $("#level").val();
+            if(x==0){
+                var array = [[team1part["level0"],"If-Else-Warriors"],[team2part["level0"],"Tag-Masters"],[team3part["level0"],"Function-Maniacs"],[team4part["level0"],"ECMA-Ninjas"],[team5part["level0"],"CSS-Sailors"]].sort((a,b)=>{
+                    return a[0]>b[0]?1:a[0]==b[0]?0:-1
+                })
+                
+                
+                var thing = `Please copy the text and paste below in the T&T: '--join~${x}~${array[0][1]}'`
+                alert(thing)
+            }
+            else  if(x==1){
+                var array = [[team1part["level1"],"If-Else-Warriors"],[team2part["level1"],"Tag-Masters"],[team3part["level1"],"Function-Maniacs"],[team4part["level1"],"ECMA-Ninjas"],[team5part["level1"],"CSS-Sailors"]].sort((a,b)=>{
+                    return a[0]>b[0]?1:a[0]==b[0]?0:-1
+                })
+                
+                
+                var thing = `Please copy the text and paste below in the T&T: '--join~${x}~${array[0][1]}'`
+                alert(thing)
+            }
+            else  if(x==2){
+                var array = [[team1part["level2"],"If-Else-Warriors"],[team2part["level2"],"Tag-Masters"],[team3part["level2"],"Function-Maniacs"],[team4part["level2"],"ECMA-Ninjas"],[team5part["level2"],"CSS-Sailors"]].sort((a,b)=>{
+                    return a[0]>b[0]?1:a[0]==b[0]?0:-1
+                })
+                
+                
+                var thing = `Please copy the text and paste below in the T&T: '--join~${x}~${array[0][1]}'`
+                alert(thing)
+            }
+            else  if(x==3){
+                var array = [[team1part["level3"],"If-Else-Warriors"],[team2part["level3"],"Tag-Masters"],[team3part["level3"],"Function-Maniacs"],[team4part["level3"],"ECMA-Ninjas"],[team5part["level3"],"CSS-Sailors"]].sort((a,b)=>{
+                    return a[0]>b[0]?1:a[0]==b[0]?0:-1
+                })
+                
+                
+                var thing = `Please copy the text and paste below in the T&T: '--join~${x}~${array[0][1]}'`
+                alert(thing)
+            }
+            else  if(x==4){
+                var array = [[team1part["level4"],"If-Else-Warriors"],[team2part["level4"],"Tag-Masters"],[team3part["level4"],"Function-Maniacs"],[team4part["level4"],"ECMA-Ninjas"],[team5part["level4"],"CSS-Sailors"]].sort((a,b)=>{
+                    return a[0]>b[0]?1:a[0]==b[0]?0:-1
+                })
+                
+                
+                var thing = `Please copy the text and paste below in the T&T: '--join~${x}~${array[0][1]}'`
+                alert(thing)
+            }
+        }
+        
+    </script>
+    </body>
+</html>
